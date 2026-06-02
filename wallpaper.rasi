@@ -1,0 +1,75 @@
+@import ".config/colors/gruvbox-material.rasi"
+
+* {
+	background: @bg0;
+	foreground: @fg;
+	font: "JetBrainsMono Nerd Font 11";
+}
+
+window {
+	width: 70%;
+	heigth: 100%;
+	location: center;
+	anchor: center;
+	background-color: @bg1;
+	border: 0;
+	border-color: @accent;	
+	border-radius: 20px;	
+}
+
+mainbox {
+	children: [ inputbar, listview ];
+	spacing: 15px;
+ 	padding: 20px;
+}
+
+inputbar {
+	children: [  entry ];
+	padding: 0px;
+}
+
+entry {
+	text-color: @blue;
+	placeholder: "Search Wallpapers";
+	padding: 8px;
+}
+
+listview {
+	columns: 4;
+	lines: 2;
+	spacing: 15px;
+	cycle: true;
+	dynamic: true;
+	layout: vertical;
+}
+
+element {
+	orentation: vertical;
+	background-color: transparent;
+	border-radius: 12px;
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+element-icon selected {
+	border-color: @yellow;
+	border: 3px;
+}
+
+element-icon {
+	size: 220px;
+	border-radius: 12px;
+}
+
+element-text {
+	enabled: false;
+}
+
+window,
+mainbox,
+element-icon selected,
+entry,
+listview {
+	background-color: @bg0;
+}
