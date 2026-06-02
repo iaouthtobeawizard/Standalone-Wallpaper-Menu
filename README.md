@@ -18,6 +18,11 @@ cd Standalone-Wallpaper-Menu
 chmod +x *.sh
 ```
 
+### Add Wallpaper Directory in (wallpaper.sh)[wallpaper.sh]
+
+``` EG:- WALL_DIR="$HOME/PICTURES/Wallpapers/"
+
+
 ## Usage
 
 ```bash
