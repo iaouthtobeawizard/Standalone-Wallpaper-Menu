@@ -21,7 +21,8 @@ chmod +x *.sh
 ### Add Wallpaper Directory in wallpaper.sh
 
 ```bash
-EG:- WALL_DIR="$HOME/PICTURES/Wallpapers/"```
+EG:- WALL_DIR="$HOME/PICTURES/Wallpapers/"
+```
 
 
 ## Usage
