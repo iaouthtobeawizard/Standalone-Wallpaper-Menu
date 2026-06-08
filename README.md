@@ -20,7 +20,8 @@ chmod +x *.sh
 
 ### Add Wallpaper Directory in wallpaper.sh
 
-``` EG:- WALL_DIR="$HOME/PICTURES/Wallpapers/"```
+```bash
+EG:- WALL_DIR="$HOME/PICTURES/Wallpapers/"```
 
 
 ## Usage
@@ -59,7 +60,3 @@ Verify awww is installed:
 ```bash
 which awww
 ```
-
-## License
-
-MIT(LICENSE)
